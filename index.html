@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -589,8 +590,8 @@
         </div>
 
         <div class="auth-tabs">
-            <button id="login-tab-btn" class="auth-tab active" onclick="switchAuthTab('login')">Login</button>
-            <button id="register-tab-btn" class="auth-tab" onclick="switchAuthTab('register')">Register</button>
+            <button class="auth-tab active" onclick="switchAuthTab('login')">Login</button>
+            <button class="auth-tab" onclick="switchAuthTab('register')">Register</button>
         </div>
 
         <!-- Login Form -->
@@ -640,11 +641,11 @@
         </header>
 
         <nav>
-            <button class="nav-btn active" data-section="browse" onclick="showSection('browse')">📖 Browse</button>
-            <button class="nav-btn" data-section="upload" onclick="showSection('upload')">📤 Upload</button>
-            <button class="nav-btn" data-section="invite" onclick="showSection('invite')">📧 Invite</button>
-            <button class="nav-btn" data-section="support" onclick="showSection('support')">🎧 Support</button>
-            <button id="admin-nav" class="nav-btn hidden" data-section="admin" onclick="showSection('admin')">👑 Admin</button>
+            <button class="nav-btn active" onclick="showSection('browse')">📖 Browse</button>
+            <button class="nav-btn" onclick="showSection('upload')">📤 Upload</button>
+            <button class="nav-btn" onclick="showSection('invite')">📧 Invite</button>
+            <button class="nav-btn" onclick="showSection('support')">🎧 Support</button>
+            <button id="admin-nav" class="nav-btn hidden" onclick="showSection('admin')">👑 Admin</button>
         </nav>
 
         <div class="main-content">
@@ -766,11 +767,11 @@
                 <!-- Admin Section -->
                 <section id="admin-section" class="section">
                     <div class="admin-tabs">
-                        <button class="admin-tab active" data-tab="analytics" onclick="showAdminTab('analytics')">📊 Analytics</button>
-                        <button class="admin-tab" data-tab="users" onclick="showAdminTab('users')">👥 Users</button>
-                        <button class="admin-tab" data-tab="files" onclick="showAdminTab('files')">📁 Files</button>
-                        <button class="admin-tab" data-tab="tickets" onclick="showAdminTab('tickets')">🎧 Tickets</button>
-                        <button class="admin-tab" data-tab="system" onclick="showAdminTab('system')">⚙️ System</button>
+                        <button class="admin-tab active" onclick="showAdminTab('analytics')">📊 Analytics</button>
+                        <button class="admin-tab" onclick="showAdminTab('users')">👥 Users</button>
+                        <button class="admin-tab" onclick="showAdminTab('files')">📁 Files</button>
+                        <button class="admin-tab" onclick="showAdminTab('tickets')">🎧 Tickets</button>
+                        <button class="admin-tab" onclick="showAdminTab('system')">⚙️ System</button>
                     </div>
 
                     <!-- Analytics Tab -->
