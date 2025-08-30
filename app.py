@@ -12,7 +12,7 @@ UPLOAD_FOLDER = 'uploads'
 METADATA_FILE = 'file_metadata.json'
 USERS_FILE = 'users.json'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-app.config['MAX_CONTENT_LENGTH'] = 10 * 1024 * 1024  # 10MB max file size
+app.config['MAX_CONTENT_LENGTH'] = 1000 * 1024 * 1024  # 10MB max file size
 
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
