@@ -1,5 +1,4 @@
-# ----------  app.py  ----------
-# (identical to the version you supplied)
+
 from flask import Flask, request, send_from_directory, jsonify, send_file, session, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 from flask_mail import Mail, Message
